@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam3Lab-Tran", "Exam3Lab-Tran\Exam3Lab-Tran.csproj", "{654AA28A-884C-491C-B9BC-557C68CB9A4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{654AA28A-884C-491C-B9BC-557C68CB9A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{654AA28A-884C-491C-B9BC-557C68CB9A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{654AA28A-884C-491C-B9BC-557C68CB9A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{654AA28A-884C-491C-B9BC-557C68CB9A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {645EA1C1-56C1-40C0-B0A4-CCC08550622F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+C:\Users\Kevin Tran\source\repos\Exam3Lab-Tran\Exam3Lab-Tran\bin\Debug\Exam3Lab-Tran.exe.config
+C:\Users\Kevin Tran\source\repos\Exam3Lab-Tran\Exam3Lab-Tran\bin\Debug\Exam3Lab-Tran.exe
+C:\Users\Kevin Tran\source\repos\Exam3Lab-Tran\Exam3Lab-Tran\bin\Debug\Exam3Lab-Tran.pdb
+C:\Users\Kevin Tran\source\repos\Exam3Lab-Tran\Exam3Lab-Tran\obj\Debug\Exam3Lab-Tran.csprojAssemblyReference.cache
+C:\Users\Kevin Tran\source\repos\Exam3Lab-Tran\Exam3Lab-Tran\obj\Debug\Exam3Lab_Tran.frmDecoder.resources
+C:\Users\Kevin Tran\source\repos\Exam3Lab-Tran\Exam3Lab-Tran\obj\Debug\Exam3Lab_Tran.Properties.Resources.resources
+C:\Users\Kevin Tran\source\repos\Exam3Lab-Tran\Exam3Lab-Tran\obj\Debug\Exam3Lab-Tran.csproj.GenerateResource.cache
+C:\Users\Kevin Tran\source\repos\Exam3Lab-Tran\Exam3Lab-Tran\obj\Debug\Exam3Lab-Tran.exe
+C:\Users\Kevin Tran\source\repos\Exam3Lab-Tran\Exam3Lab-Tran\obj\Debug\Exam3Lab-Tran.pdb
