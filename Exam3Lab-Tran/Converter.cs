@@ -11,12 +11,137 @@ namespace Exam3Lab_Tran
         public string encrypt(string message)
         {
             char[] charArray = message.ToCharArray();
-            for(int i = 0; i <= charArray.Length; i++)
+            for(int i = 0; i < charArray.Length; i++)
             {
-
+                charArray[i] = encryptLetter(charArray[i]);
             }
+            string holder = new string(charArray);
+            return holder;
+
         }
 
+        public string decrypt(string message)
+        {
+            char[] charArray = message.ToCharArray();
+            for (int i = 0; i < charArray.Length; i++)
+            {
+                charArray[i] = decryptLetter(charArray[i]);
+            }
+            string holder = new string(charArray);
+            return holder;
+
+        }
+
+        public char decryptLetter(char letter)
+        {
+            char holder = letter;
+            if (letter == 'x' || letter == 'X')
+            {
+                holder = 'a';
+            }
+            if (letter == 'y' || letter == 'Y')
+            {
+                holder = 'b';
+            }
+            if (letter == 'z' || letter == 'Z')
+            {
+                holder = 'c';
+            }
+            if (letter == 'e' || letter == 'E')
+            {
+                holder = 'd';
+            }
+            if (letter == 'j' || letter == 'J')
+            {
+                holder = 'f';
+            }
+            if (letter == 'i' || letter == 'I')
+            {
+                holder = 'e';
+            }
+            if (letter == 'l' || letter == 'L')
+            {
+                holder = 'g';
+            }
+            if (letter == 'a' || letter == 'A')
+            {
+                holder = 'H';
+            }
+            if (letter == 'm' || letter == 'M')
+            {
+                holder = 'i';
+            }
+            if (letter == 'b' || letter == 'B')
+            {
+                holder = 'j';
+            }
+            if (letter == 'o' || letter == 'O')
+            {
+                holder = 'k';
+            }
+            if (letter == 'c' || letter == 'C')
+            {
+                holder = 'l';
+            }
+            if (letter == 'd' || letter == 'D')
+            {
+                holder = 'm';
+            }
+            if (letter == 'f' || letter == 'F')
+            {
+                holder = 'n';
+            }
+            if (letter == 't' || letter == 'T')
+            {
+                holder = 'o';
+            }
+            if (letter == 'u' || letter == 'U')
+            {
+                holder = 'p';
+            }
+            if (letter == 'v' || letter == 'V')
+            {
+                holder = 'q';
+            }
+            if (letter == 'w' || letter == 'W')
+            {
+                holder = 'r';
+            }
+            if (letter == 'k' || letter == 'K')
+            {
+                holder = 's';
+            }
+            if (letter == 'p' || letter == 'P')
+            {
+                holder = 't';
+            }
+            if (letter == 'g' || letter == 'G')
+            {
+                holder = 'u';
+            }
+            if (letter == 'q' || letter == 'Q')
+            {
+                holder = 'v';
+            }
+            if (letter == 'h' || letter == 'H')
+            {
+                holder = 'w';
+            }
+            if (letter == 'n' || letter == 'N')
+            {
+                holder = 'x';
+            }
+            if (letter == 'r' || letter == 'R')
+            {
+                holder = 'y';
+            }
+            if (letter == 's' || letter == 'S')
+            {
+                holder = 'z';
+            }
+
+            return holder;
+        }
         public char encryptLetter(char letter)
         {
             char holder = letter;
@@ -97,7 +222,7 @@ namespace Exam3Lab_Tran
             }
             if (letter == 't' || letter == 'T')
             {
-                holder = 'x';
+                holder = 'p';
             }
             if (letter == 'u' || letter == 'U')
             {

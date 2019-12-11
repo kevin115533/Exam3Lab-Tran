@@ -64,6 +64,7 @@
             this.btnEncrypt.TabIndex = 2;
             this.btnEncrypt.Text = "Encrypt";
             this.btnEncrypt.UseVisualStyleBackColor = true;
+            this.btnEncrypt.Click += new System.EventHandler(this.btnEncrypt_Click);
             // 
             // btnReset
             // 
@@ -85,6 +86,7 @@
             this.btnDecrypt.TabIndex = 4;
             this.btnDecrypt.Text = "Decrypt";
             this.btnDecrypt.UseVisualStyleBackColor = true;
+            this.btnDecrypt.Click += new System.EventHandler(this.btnDecrypt_Click);
             // 
             // btnExit
             // 

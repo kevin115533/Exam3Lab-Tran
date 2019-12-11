@@ -36,5 +36,58 @@ namespace Exam3Lab_Tran
             txtMessage.Text = "";
             lblDisplay.Text = "";
         }
+
+        private void btnEncrypt_Click(object sender, EventArgs e)
+        {
+            if (validateData())
+            {
+                string userMessage = txtMessage.Text;
+                Converter c = new Converter();
+                lblDisplay.Text = c.encrypt(userMessage);
+            }
+        }
+
+        private void btnDecrypt_Click(object sender, EventArgs e)
+        {
+            if (validateData())
+            {
+                string userMessage = txtMessage.Text;
+                Converter c = new Converter();
+                lblDisplay.Text = c.decrypt(userMessage);
+            }
+        }
+
+        public bool validateData()
+        {
+            return
+                IsBlank(txtMessage) &&
+                isLetters(txtMessage);
+                
+        }
+
+        public bool IsBlank(TextBox textBox)
+        {
+            if (textBox.Text == "")
+            {
+                lblDisplay.Text = "Entry box is empty, please input a value";
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+        public bool isLetters(TextBox textBox)
+        {
+            string s = textBox.Text;
+            foreach (char c in s)
+            {
+                if (!Char.IsLetter(c))
+                    lblDisplay.Text = "Entry can only contain letters";
+                    return false;
+            }
+            return true;
+        }
     }
 }
