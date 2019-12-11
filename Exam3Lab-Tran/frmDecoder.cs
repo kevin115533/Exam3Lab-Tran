@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+/* Kevin Tran
+ * 12/10/2019
+ * Fall 2019
+ */
 
 namespace Exam3Lab_Tran
 {
@@ -21,7 +18,6 @@ namespace Exam3Lab_Tran
         {
             this.Close();
         }
-
 
         private void frmDecoder_KeyDown(object sender, KeyEventArgs e)
         {
@@ -62,7 +58,6 @@ namespace Exam3Lab_Tran
             return
                 IsBlank(txtMessage) &&
                 isLetters(txtMessage);
-                
         }
 
         public bool IsBlank(TextBox textBox)
@@ -83,11 +78,11 @@ namespace Exam3Lab_Tran
             string s = textBox.Text;
             foreach (char c in s)
             {
-                if (!Char.IsLetter(c))
-                    lblDisplay.Text = "Entry can only contain letters";
-                    return false;
+                if (Char.IsLetter(c))
+                    return true;
             }
-            return true;
+            lblDisplay.Text = "Entry can only contain letters";
+            return false;
         }
     }
 }

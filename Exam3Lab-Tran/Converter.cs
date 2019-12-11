@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Exam3Lab_Tran
+﻿namespace Exam3Lab_Tran
 {
     class Converter
     {
@@ -17,7 +11,6 @@ namespace Exam3Lab_Tran
             }
             string holder = new string(charArray);
             return holder;
-
         }
 
         public string decrypt(string message)
@@ -65,7 +58,7 @@ namespace Exam3Lab_Tran
             }
             if (letter == 'a' || letter == 'A')
             {
-                holder = 'H';
+                holder = 'h';
             }
             if (letter == 'm' || letter == 'M')
             {
@@ -139,7 +132,6 @@ namespace Exam3Lab_Tran
             {
                 holder = 'z';
             }
-
             return holder;
         }
         public char encryptLetter(char letter)
@@ -248,9 +240,7 @@ namespace Exam3Lab_Tran
             {
                 holder = 's';
             }
-
             return holder;
         }
-
     }
 }
